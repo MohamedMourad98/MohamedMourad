@@ -121,144 +121,51 @@ nav a i{
 }
 /* -------------------------- end Home & cart--------------------------------------*/
 
-/* -------------------------- start div input--------------------------------------*/
-.input{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.input input{
-    width: 85%;   
-    padding: 20px; 
-}
-/* -------------------------- end div input--------------------------------------*/
-
-
+/* -------------------------- START SEC 1--------------------------------------*/
 .sec1{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0px 70px;
-    margin-bottom: 50px;
-    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.sec1 .one{
-    width: 40%;
-}
-.sec1 .two{
-    width: 40%;
-}
-.sec1 .name{
-    display: flex; 
-    margin-top: 5px;  
-}
-
-.sec1 .name input{
-    margin-right: 15px;
-}
-.sec1 fieldset{
-    margin-top: 5px;
-    padding: 20px 50px;
-    border-color: rgb(202, 202, 202);
-}
-.sec1 input{
-    padding: 3px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.sec1 label{
-    margin-top: 5px;
-    font-size: 13px;
-}
-
-/* -----------------start two--------- */
-.top{
-    position: relative;
-    margin-bottom: 30px;
-}
-.top p{
-    color: rgb(187, 187, 187);
-    font-size: 13px;
+.sec1 i{
+    background-color: rgb(4, 158, 4);
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
     margin-bottom: 20px;
 }
-.top button{
+.sec1 h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.sec1 p{
+    color: rgb(184, 184, 184);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.sec1 button{
+    padding: 10px 20px;
     background-color: blueviolet;
     color: white;
     border: none;
-    padding: 5px 15px;
     border-radius: 3px;
-    position: absolute;
-    top: 60px;
-    left: 228px;
-    font-size: 13px;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
-
-.bottom div{
-display: flex;
-justify-content: space-between;
-padding: 0px 10px;
-margin-top: 10px;
-margin-bottom: 10px;
-
-}
-.dark{
-    font-weight: bold;
-}
-.cash{
-    display: flex;
-    flex-direction: column;
-    /* width: 100%; */
-}
-.cash a{
-    text-decoration: none;
-    /* padding: 10px; */
-    padding: 5px 0px;
-}
-.cash button{
-    width: 400px;
-    text-align: left;
-    padding: 5px;
-    background-color: white;
-    color: blueviolet;
-    border-radius: 5px;
-    border: 1px solid rgb(187, 187, 187);
-    outline: none;
-    cursor: pointer;
-}
-.cash button:hover{
-    background-color: blueviolet;
-    color: white;
-    transition: .3s;
-    cursor: pointer;
+.sec1 button:hover{
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 1px #1d1d1d;
 }
 
-.finish button{
-width: 400px;
-padding: 10px;
-margin-top: 20px;
-background-color: blueviolet;
-color: white;
-border-radius: 5px;
-border: none;
-cursor: pointer;
-}
-.finish button:hover{
-    box-shadow: 1px 1px 1px 1px #1d1d1d;
-    transform: translateY(-10px);
-    transition: .3s;
-}
-
-
-
-
-
-
-
-
-
-
+/* -------------------------- end SEC 1--------------------------------------*/
 
 
 
